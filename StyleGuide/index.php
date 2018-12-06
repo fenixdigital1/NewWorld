@@ -847,11 +847,11 @@
                             <div class="card white">
                                 <div class="card-content white-text">
                                     <h1 style="font-family: Raleway; color: black;"> Heading H1</h1>
-                                    <h2 style="font-family: Raleway; color: black;"> Heading H1</h2>
-                                    <h3 style="font-family: Raleway; color: black;"> Heading H1</h3>
-                                    <h4 style="font-family: Raleway; color: black;"> Heading H1</h4>
-                                    <h5 style="font-family: Raleway; color: black;"> Heading H1</h5>
-                                    <h6 style="font-family: Raleway; color: black;"> Heading H1</h6>
+                                    <h2 style="font-family: Raleway; color: black;"> Heading H2</h2>
+                                    <h3 style="font-family: Raleway; color: black;"> Heading H3</h3>
+                                    <h4 style="font-family: Raleway; color: black;"> Heading H4</h4>
+                                    <h5 style="font-family: Raleway; color: black;"> Heading H5</h5>
+                                    <h6 style="font-family: Raleway; color: black;"> Heading H6</h6>
                                     <p style="font-family: Raleway; color: black;"> Paragraphy </p>
                                 </div>
                             </div>
