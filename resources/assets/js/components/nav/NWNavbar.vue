@@ -155,51 +155,6 @@
             <li><a href="" class="white-text waves-effect waves-light modal-trigger">Outros</a></li>
         </ul>
 
-        <!-- Modal Structure -->
-        <div id="modalCarrinho" class="modal modal-fixed-footer">
-            <div class="modal-content">
-            <h4 class="center ralewayFont"> Meu Carrinho de Compras </h4>
-                <div class="container">
-                    <table class="highlight responsive-table">
-                        <thead>
-                            <tr>
-                                <th class="ralewayFont titulo"> <b> Produto </b> </th>
-                                <th class="ralewayFont titulo"> <b> Preço </b> </th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td> <img src="" style="height:150px; width: 120px; float:left;"> 
-                                    <br> <p class="ralewayFont nome"> <b> {{prod_categoria}} - {{prod_nome}} - {{prod_tipo_nome}} </b> </p>
-                                    <p class="ralewayFont nome"> <b> Quantidade: </b> {{prod_quantidade}} </p>
-                                    <a href="" class="ralewayFont red-text"> Remover </a>
-                                </td>
-
-                                <td class="ralewayFont vendedor"> <b>R$ {{price}} </b> </td>
-                        </tr>
-                            @endforeach
-                        </tbody>
-                    </table>
-                    
-                    <br><br>
-                    
-                    <div class="col s6 m6 l6 z-depth-3">
-                        <div class="card horizontal grey lighten-3">
-                            <div class="card-stacked">
-                                <div class="card-content">
-                                    <p class="valorCompra ralewayFont center"> <b>Valor Total da Compra: R$ {{total_price}} </b> </p>
-                                </div>
-                            </div> 
-                    </div>
-                    </div>
-                </div>      
-            </div>
-            <div class="modal-footer">
-                <a href="" class="modal-close waves-effect waves-green btn-flat green-text right"> Ver Carrinho </a>
-                <a href="d" class="modal-close waves-effect waves-green btn-flat red-text right"> Cancelar Pedido </a>
-            </div>
-        </div>
     </div>
 </template>
     

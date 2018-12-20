@@ -16,6 +16,8 @@ window.Vue = require('vue');
  */
 
 Vue.component('example', require('./components/ExampleComponent.vue'));
+Vue.component('nw-footer', require('./components/nav/NWFooter.vue'));
+Vue.component('nw-navbar', require('./components/nav/NWNavbar.vue'));
 
 const app = new Vue({
     el: '#app'
